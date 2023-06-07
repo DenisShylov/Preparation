@@ -1,51 +1,22 @@
-body {
-  background-color: #bdc37c;
-}
-
-h1 {
-  color: #9b59b6;
-}
-
-h2 {
-  color: orange;
-}
-
 li {
-  color: blue;
+  margin-bottom: 16px;
 }
 
-p {
-  background-color: yellow;
+ul > li:first-child span {
+  background-color: red;
+  color: white;
 }
 
-input {
-  border: 3px solid red;
+ul > li:last-child span {
+  background-color: black;
+  color: white;
 }
 
-.hello {
-  background-color: white;
+ul > li:nth-child(even) span {
+  margin-left: 16px;
 }
 
-#special {
-  border: 2px solid blue;
-}
-
-div p {
-  font-size: 25px;
-}
-
-input[type='text'] {
+.paragraphs > p:nth-child(1),
+.paragraphs > p:nth-child(4) {
   background-color: grey;
-}
-
-div:nth-child(3) ~ p {
-  background-color: yellow;
-}
-
-div:nth-child(3) > p:nth-child(2) {
-  border: 5px solid white;
-}
-
-div:nth-child(3) + p > em {
-  font-size: 20px;
 }
