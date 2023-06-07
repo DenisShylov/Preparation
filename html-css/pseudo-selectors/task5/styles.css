@@ -30,16 +30,13 @@ input {
   border: 2px solid blue;
 }
 
-div:first-of-type > p {
+div > p {
   font-size: 25px;
+  background-color: yellow;
 }
 
 input[type='text'] {
   background-color: gray;
-}
-
-div > p {
-  background-color: yellow;
 }
 
 div:nth-last-of-type(1) > p:nth-child(2) {
