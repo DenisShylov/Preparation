@@ -1,0 +1,52 @@
+body {
+  background-color: #bdc3c7;
+}
+
+h1 {
+  color: #9b56b6;
+}
+
+h2 {
+  color: orange;
+}
+
+li {
+  color: blue;
+}
+
+p {
+  background-color: yellow;
+}
+
+input {
+  border: 3px solid red;
+}
+
+.hello {
+  background-color: white;
+}
+
+#special {
+  border: 2px solid blue;
+}
+
+div:first-of-type > p {
+  font-size: 25px;
+}
+
+input[type='text'] {
+  background-color: gray;
+}
+
+div:nth-last-of-type(1) > p {
+  background-color: yellow;
+}
+
+div:nth-last-of-type(1) > p:nth-child(2) {
+  border: 5px solid white;
+}
+
+div:nth-last-of-type(2) > p em {
+  font-size: 20px;
+  color: white;
+}
