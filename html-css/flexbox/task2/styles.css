@@ -6,5 +6,6 @@
 .block {
   flex-grow: 1;
   height: 100px;
-  min-width: 100px;
+  width: 100px;
+  flex-shrink: 0;
 }
