@@ -2,7 +2,7 @@ div.rectangle {
   background-color: blueviolet;
 }
 
-div + p.new::first-letter {
-  color: green !important;
+p.text::first-letter {
+  color: green;
   font-size: 24px;
 }
