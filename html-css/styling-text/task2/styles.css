@@ -14,5 +14,17 @@ h1 {
   margin: auto;
   font-size: 74px;
   width: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   overflow: hidden;
+  /* text-align: center; */
+}
+
+div {
+  height: 200px;
+  background-color: coral;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 200px;
 }
