@@ -13,50 +13,52 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <label for="lastName">Last Name</label>
-      <input
-        type="text"
-        id="lastName"
-        name="lastName"
-        value="Emerson"
-        readonly
-      />
-    </div>
-    <div>
-      <label for="age">Age</label>
-      <input
-        type="number"
-        id="age"
-        name="age"
-        value="10"
-        required
-        min="3"
-        max="10"
-      />
-    </div>
-    <div>
-      <input type="checkbox" disabled name="agree" id="checkbox" />
-      <label for="checkbox">Accept terms and conditions</label>
-    </div>
-    <div class="choose-gender">
-      <input type="radio" name="gender" id="male" checked />
-      <label for="male">Male</label>
-      <input type="radio" name="gender" id="female" />
-      <label for="female">Female</label>
-      <input type="radio" name="gender" id="secret" />
-      <label for="secret">Secret</label>
-    </div>
-    <div>
-      <textarea
-        name="description"
-        id="textarea"
-        placeholder="Write description..."
-        maxlength="10"
-      ></textarea>
-    </div>
-    <div>
-      <button type="submit">Submit</button>
-    </div>
+    <form>
+      <div>
+        <label for="lastName">Last Name</label>
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          value="Emerson"
+          readonly
+        />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          value="10"
+          required
+          min="3"
+          max="10"
+        />
+      </div>
+      <div>
+        <input type="checkbox" disabled name="agree" id="checkbox" />
+        <label for="checkbox">Accept terms and conditions</label>
+      </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" id="male" checked />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="secret" />
+        <label for="secret">Secret</label>
+      </div>
+      <div>
+        <textarea
+          name="description"
+          id="textarea"
+          placeholder="Write description..."
+          maxlength="10"
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
