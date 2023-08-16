@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <label for="lastName">Last Name</label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        value="Emerson"
+        readonly
+      />
+    </div>
+    <div>
+      <label for="age">Age</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        value="10"
+        required
+        min="3"
+        max="10"
+      />
+    </div>
+    <div>
+      <input type="checkbox" disabled name="agree" id="checkbox" />
+      <label for="checkbox">Accept terms and conditions</label>
+    </div>
+    <div class="choose-gender">
+      <input type="radio" name="gender" id="male" checked />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="secret" />
+      <label for="secret">Secret</label>
+    </div>
+    <div>
+      <textarea
+        name="description"
+        id="textarea"
+        placeholder="Write description..."
+        maxlength="10"
+      ></textarea>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </body>
+</html>

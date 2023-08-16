@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form">
+      <input
+        class="controls"
+        type="text"
+        name="primaryLanguage"
+        value="HTML"
+        disabled
+      />
+      <input class="controls" type="checkbox" name="agree" />
+      <input class="controls" type="checkbox" name="like" checked readonly />
+      <input
+        class="controls"
+        type="color"
+        name="favouriteColor"
+        value="#ff7f50"
+      />
+      <input class="controls" type="date" name="birthDate" value="2021-02-01" />
+      <input
+        class="controls"
+        type="datetime-local"
+        name="birthTime"
+        value="2024-04-10T13:02"
+      />
+      <input
+        class="controls"
+        type="email"
+        name="email"
+        placeholder="example@domain.com"
+        required
+      />
+      <input class="controls" type="file" name="avatar" />
+      <input
+        class="controls"
+        type="month"
+        name="startLearning"
+        value="2020-01"
+      />
+      <input class="controls" type="number" name="favouriteNumber" value="17" />
+      <textarea
+        class="controls"
+        name="story"
+        rows="5"
+        maxlength="30"
+        placeholder="A long time ago..."
+      ></textarea>
+      <input type="password" class="controls" value="secret" />
+      <div class="languages">
+        <input type="radio" name="language" value="html" /> HTML
+        <input type="radio" name="language" value="css" /> CSS
+        <input type="radio" name="language" value="javascript" /> JavaScript
+      </div>
+      <input class="controls" type="range" name="learningProgress" value="30" />
+      <select class="controls" name="framework">
+        <option value="react">React</option>
+        <option value="jquery">JQuery</option>
+        <option value="bootstrap">Bootstrap</option>
+      </select>
+      <input
+        class="controls"
+        type="search"
+        name="search"
+        placeholder="Type first letters..."
+      />
+      <input class="controls" type="time" name="lunchEnd" value="14:01" />
+      <input
+        class="controls"
+        type="url"
+        name="website"
+        placeholder="https://website.com"
+        required
+      />
+      <input class="controls" type="week" name="birthWeek" value="2021-w51" />
+      <button class="controls" type="submit">Save</button>
+    </form>
+  </body>
+</html>
