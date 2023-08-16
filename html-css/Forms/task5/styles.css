@@ -3,13 +3,9 @@
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
   margin: 32px;
 }
 
-.controls,
-.languages {
+div {
   margin: 8px;
 }
