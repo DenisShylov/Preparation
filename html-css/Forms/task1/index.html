@@ -13,33 +13,35 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <input type="text" value="Emerson" />
-    </div>
-    <div>
-      <input type="number" name="age" value="17" />
-    </div>
-    <div>
-      <input type="checkbox" name="agree" id="checkbox" />
-      <label for="checkbox">Accept terms and conditions</label>
-    </div>
-    <div class="choose-gender">
-      <input type="radio" name="gender" id="male" checked />
-      <label for="male">Male</label>
-      <input type="radio" name="gender" id="female" />
-      <label for="female">Female</label>
-      <input type="radio" name="gender" id="secret" />
-      <label for="secret">Secret</label>
-    </div>
-    <div>
-      <textarea
-        name="description"
-        id="textarea"
-        placeholder="Write description..."
-      ></textarea>
-    </div>
-    <div>
-      <button type="submit">Submit</button>
-    </div>
+    <form>
+      <div>
+        <input type="text" name="lastName" value="Emerson" />
+      </div>
+      <div>
+        <input type="number" name="age" value="17" />
+      </div>
+      <div>
+        <input type="checkbox" name="agree" id="checkbox" />
+        <label for="checkbox">Accept terms and conditions</label>
+      </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" id="male" checked />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="secret" />
+        <label for="secret">Secret</label>
+      </div>
+      <div>
+        <textarea
+          name="description"
+          id="textarea"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
