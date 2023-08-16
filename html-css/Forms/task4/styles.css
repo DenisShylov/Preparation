@@ -4,6 +4,8 @@
 
 body {
   background-color: bisque;
+  font-family: monospace;
+  font-size: 16px;
 }
 
 .page {
@@ -42,7 +44,9 @@ body {
   border: 3px solid #ff0000;
 }
 .form-label {
+  display: inline-block;
   margin-top: 8px;
+  margin-bottom: 4px;
 }
 
 .submit-button {
