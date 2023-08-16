@@ -14,20 +14,20 @@ td {
   text-align: center;
 }
 
-tr:nth-child(3) > :last-child,
-tr:nth-child(4) > :last-child,
-tr:nth-child(5) > :last-child,
-tr:nth-child(6) > :last-child,
-tr:nth-child(7) > :last-child,
-tr:nth-child(8) > :last-child,
-tr:nth-child(9) > :last-child,
-tr:nth-child(3) > :first-child,
-tr:nth-child(4) > :first-child,
-tr:nth-child(5) > :first-child,
-tr:nth-child(6) > :first-child,
-tr:nth-child(7) > :first-child,
-tr:nth-child(8) > :first-child,
-tr:nth-child(9) > :first-child {
+tr:nth-child(3) > td:last-child,
+tr:nth-child(4) > td:last-child,
+tr:nth-child(5) > td:last-child,
+tr:nth-child(6) > td:last-child,
+tr:nth-child(7) > td:last-child,
+tr:nth-child(8) > td:last-child,
+tr:nth-child(9) > td:last-child,
+tr:nth-child(3) > td:first-child,
+tr:nth-child(4) > td:first-child,
+tr:nth-child(5) > td:first-child,
+tr:nth-child(6) > td:first-child,
+tr:nth-child(7) > td:first-child,
+tr:nth-child(8) > td:first-child,
+tr:nth-child(9) > td:first-child {
   border: none;
 }
 

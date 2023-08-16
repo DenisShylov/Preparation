@@ -7,6 +7,7 @@ table {
   width: 500px;
   margin: 16px;
   border-collapse: collapse;
+  overflow-x: auto;
 }
 
 caption {
@@ -20,9 +21,6 @@ th {
   padding: 4px;
 }
 
-tr {
-  line-height: 40px;
-}
 thead {
   background-color: aqua;
 }
@@ -36,4 +34,8 @@ tbody > tr:hover {
 }
 tfoot {
   font-weight: 700;
+}
+
+tr {
+  height: 40px;
 }
